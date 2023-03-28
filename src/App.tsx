@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Octokit } from "octokit";
 import "./App.css"
-import { AiFillStar } from 'react-icons/ai';
+import { AiFillStar } from 'react-icons/ai'
 const octokit = new Octokit({
-  auth: process.env.REACT_APP_GITHUB_TOKEN || "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",
+  auth: process.env.REACT_APP_GITHUB_TOKEN,
 });
 
 
